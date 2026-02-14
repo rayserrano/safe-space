@@ -243,13 +243,16 @@ footer { background: var(--brown); color: var(--cream); padding: 4rem 2rem 2.5re
   .program-grid { grid-template-columns: 1fr; }
   .daily-illustration { position: relative; top: 0; order: -1; }
   .hero-illustration { max-width: 300px; margin: 0 auto; }
-  .nav-logo { height: 200px; }
+  .nav-inner { flex-direction: row; align-items: center; justify-content: space-between; padding: 0.5rem 1rem; }
+  img.nav-logo { height: 60px; }
   .form-row { grid-template-columns: 1fr; }
   .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--white); flex-direction: column; padding: 1.5rem 2rem; gap: 1rem; border-bottom: 1px solid rgba(91, 122, 46, 0.1); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
   .nav-links.active { display: flex; }
   .mobile-toggle { display: block; }
+  .hero { padding: 6rem 1.5rem 3rem; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-info { text-align: center; }
+  .footer-middle { gap: 2rem; }
 }
 
 @media (max-width: 500px) {
