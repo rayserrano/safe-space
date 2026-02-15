@@ -87,7 +87,7 @@ img.nav-logo { height: 400px; width: auto; max-width: none; display: inline-bloc
 /* HERO ILLUSTRATION */
 .hero-illustration { position: relative; display: flex; align-items: center; justify-content: center; animation: fadeInUp 0.8s ease-out 0.2s backwards; }
 .illustration-frame { background: var(--cream); border: 3px solid var(--olive); border-radius: 50%; aspect-ratio: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem; position: relative; overflow: hidden; }
-.illustration-frame::before { content: ''; position: absolute; inset: 8px; border: 1.5px dashed var(--lavender); border-radius: 50%; opacity: 0.4; }
+.illustration-frame::before { display: none; }
 .illustration-placeholder { text-align: center; color: var(--brown-light); }
 .illustration-placeholder .icon { font-size: 3.5rem; margin-bottom: 1rem; display: block; }
 .illustration-placeholder p { font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--lavender); }
